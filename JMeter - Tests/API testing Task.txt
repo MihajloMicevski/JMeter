@@ -1,0 +1,37 @@
+For this exercise I'm sending one free API to play with Cocktails :)
+
+https://www.thecocktaildb.com/api.php
+
+ 
+
+Based on their documentation, we can notice that the cocktail can be searched by:
+
+- Name (www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita)
+
+- First letter
+
+- By ingredient (www.thecocktaildb.com/api/json/v1/1/filter.php?i=Gin)
+
+- by ID
+
+- Randomly
+
+etc.
+
+ 
+
+By using Jmeter, you should automate 5-10 test scenarios where you will validate the following:
+
+1. For the Search Cocktail By Name API, to be validated Response Code and Message in case of positive and negative scenarios.
+
+2. For the Search Cocktail By Name API, to be validated the expected elements in response message.
+
+3. For the Search Cocktail By Name API, to be validated some values from the response message for a given Coctail.
+
+4. Execute Search by ingredient API. From the list of cocktail, randomly pick one (Not the first one, but a random one!!). Use that cocktail name as input parameter for Search Cocktail By Name API. Ingredients from both responses to be compared and to be validated they are the same.
+
+ 
+
+Note: Please use parameters when executing the APIs. Parameters can be called from User Defined Variables.
+
+Note2: Feel free to add other API calls to exercise even better.
